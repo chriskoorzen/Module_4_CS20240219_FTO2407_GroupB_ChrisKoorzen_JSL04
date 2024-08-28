@@ -1,6 +1,5 @@
 "use strict";       // "Be tolerant with others, and strict with yourself." - Marcus Aurelius
 
-// # [JSL04] Submission: Monster Ternary Operator
 
 // #### Challenge 1: Flavor Selection
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
@@ -12,6 +11,8 @@ console.log("User's Preference:", userPreference);
 console.log("What we heard:", preferenceChoice);
 console.log("\n")
 
+
+
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
@@ -21,6 +22,7 @@ let stockAction = cansLeft >= 5 ? "We're stocked!" : "Time to restock!";
 console.log("Cans Left", cansLeft);
 console.log("Action:", stockAction);
 console.log("\n")
+
 
 
 // #### Challenge 3: Workout Intensity
@@ -34,6 +36,7 @@ console.log("Our recommendation:", drinkRecommendation);
 console.log("\n")
 
 
+
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
@@ -43,6 +46,7 @@ let serveAction = currentTemp > 5 ? "Needs a cooler!" : "Chilled to perfection!"
 console.log("Current temp:", currentTemp);
 console.log("Is it ready to serve:", serveAction);
 console.log("\n")
+
 
 
 // #### Challenge 5: Late Night Coding Session
@@ -65,7 +69,9 @@ console.log("Should we drink:", drinkAction);
 console.log("\n")
 
 
+
 // Lets try a harder one
+// Check this out: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator#conditional_chains
 console.log("Hard Mode:")
 
 // No caffeine before 8am. May have before 12pm. Nothing again till 3pm. Ok until 7pm. No more than 2 per day.
@@ -82,5 +88,3 @@ let hydrateStrategy = totalDrinks >= 2 ? "Better stick to water." :
 console.log("Current hour:", currentTime);
 console.log("Total drinks today:", totalDrinks);
 console.log("Hydration tactic:", hydrateStrategy, "\n\n");
-
-// Check this out: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator#conditional_chains
